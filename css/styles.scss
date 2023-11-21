@@ -1,0 +1,25 @@
+.container {
+  max-width: 1232px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.logo {
+  object-fit: contain;
+  object-position: center;
+}
+
+.nav {
+  &-list {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "./header.scss";
+@import "./catalog.scss";
+@import "./reset.scss";
